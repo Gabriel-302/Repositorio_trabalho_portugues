@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editorial Pessoal — Ensaios & Reflexões</title>
+    
+    <!-- Fontes do Google (Lora para o texto editorial e Plus Jakarta Sans para a interface) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Arquivo CSS Externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho Principal -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="header-top">
+                <span class="header-date">Edição Nº 1 &bull; São Paulo</span>
+                <span class="header-tagline">Um espaço de literatura e reflexão</span>
+            </div>
+            
+            <a href="../Home/index.html" class="logo">O ENSAÍSTA</a>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#destaque" class="nav-link active">Destaque</a></li>
+                    <li><a href="#ensaios" class="nav-link">Ensaios</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#newsletter" class="nav-link">Newsletter</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- Destaque Principal -->
+        <section id="destaque" class="hero-section">
+            <article class="hero-card">
+                <div class="hero-content">
+                    <span class="badge">Novidades</span>
+                    <h1 class="hero-title">
+                        <a href="../Artigo/Artigo.html">Um louco e um alienado</a>
+                    </h1>
+                    <p class="hero-excerpt">
+                        O Triste Fim de Policarpo Quaresma é uma sátira genial e dolorosa sobre o patriotismo ingênuo. Lima Barreto expõe com maestria a tragédia de amar cegamente um país que esmaga seus próprios idealistas com burocracia, hipocrisia e autoritarismo — um clássico indispensável e assustadoramente atual.
+                    </p>
+                    <div class="meta-info">
+                        <span class="author">Por <strong>Davi Araujo</strong></span>
+                        <span class="dot">&bull;</span>
+                        <span class="time">8 min de leitura</span>
+                        <span class="dot">&bull;</span>
+                        <span class="date">28 de Setembro, 2026</span>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="https://livrarialoyola.fbitsstatic.net/img/p/o-triste-fim-do-policarpo-quaresma-211068/405812.jpg?w=800&h=800&v=no-change&qs=ignore" alt="Mesa de trabalho minimalista com café e bloco de notas" class="hero-image">
+                </div>
+            </article>
+        </section>
+
+        <!-- Grade de Ensaios Recentes -->
+        <section id="ensaios" class="articles-section">
+            <div class="section-header">
+                <h2 class="section-title">Ensaios Recentes</h2>
+                <div class="line-divider"></div>
+            </div>
+
+            <div class="articles-grid">
+
+                <!-- Artigo 1 -->
+                <article href="../Artigo/Artigo.html" class="article-card">
+                    <div class="card-image-wrapper">
+                        <img src="../Images/Capa.jfif" alt="Livro aberto" class="card-image">
+                    </div>
+                    <div class="card-body">
+                        <span class="badge">Artigo</span>
+                        <h3 class="card-title"><a href="../Artigo/Artigo.html">O verdadeiro Policarpo Quaresma</a></h3>
+                        <p class="card-excerpt">Quem é o rapaz que vive entre as linhas de um romance e se perde nas profundezas de sua própria alma?</p>
+                        <div class="meta-info">
+                            <span>5 min de leitura</span>
+                            <span class="dot">&bull;</span>
+                            <span>20 Sep</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Artigo 2 -->
+                <article class="article-card">
+                    <div class="card-image-wrapper">
+                        <img src="../Images/Capa.jfif" alt="Biblioteca antiga" class="card-image">
+                    </div>
+                    <div class="card-body">
+                        <span class="badge">Em desenvolvimento</span>
+                        <h3 class="card-title"><a href="#">Espaços que Moldeiam Mentes</a></h3>
+                    </div>
+                </article>
+
+                <!-- Artigo 3 -->
+                <article class="article-card">
+                    <div class="card-image-wrapper">
+                        <img src="../Images/Capa.jfif" alt="Pessoa escrevendo num notebook" class="card-image">
+                    </div>
+                    <div class="card-body">
+                        <span class="badge">Em desenvolvimento</span>
+                        <h3 class="card-title"><a href="#">O Valor dos Rituais Matinais</a></h3>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Seção Sobre e Newsletter -->
+        <section id="sobre" class="about-newsletter-grid">
+            
+            <!-- Bio do Autor -->
+            <div class="about-card">
+                <img src="../Images/Foto Enzo.jpeg" alt="Foto de perfil do autor" class="author-avatar">
+                <h3 class="about-name">Sobre o Autor</h3>
+                <p class="about-bio">
+                    Escritor, pesquisador e crítico literário. Escrevo semanalmente sobre livros e autores que inspiram e trazem novas perspectivas.
+                </p>
+            </div>
+
+            <!-- Formulário Newsletter -->
+            <div id="newsletter" class="newsletter-card">
+                <span class="badge">Edição Semanal</span>
+                <h3 class="newsletter-title">Receba os ensaios no seu e-mail</h3>
+                <p class="newsletter-desc">Uma reflexão nova todo domingo de manhã. Sem spam, cancele quando quiser.</p>
+                <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Obrigado por se inscrever!');">
+                    <input type="email" placeholder="Seu e-mail principal..." required class="newsletter-input">
+                    <button type="submit" class="newsletter-btn">Inscrever-se</button>
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 O Ensaísta. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="#">Twitter/X</a>
+                <a href="#">Substack</a>
+                <a href="#">RSS</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
